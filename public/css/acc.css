@@ -1,0 +1,480 @@
+body {
+    top: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+li:hover {
+    background: rgb(190, 201, 212);
+
+}
+
+.form-control:valid {
+    border-width: 0 0 3px;
+    background: transparent;
+    box-shadow: none;
+}
+
+#menu {
+    height: 100%;
+
+    overflow-y: hidden;
+    width: 20%;
+    position: fixed;
+    TOP: 0;
+    background-color: white;
+}
+
+.lis li {
+    margin-top: 2%;
+}
+
+.lis {
+    height: 70%;
+}
+
+.search-bar {
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+s .log {
+    height: 30%;
+}
+
+.log img {
+    height: 60%;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.acad {
+    height: 40%;
+    margin-bottom: 0px;
+    font-size: 60%;
+}
+
+
+.scrol::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.scrol::-webkit-scrollbar-track {
+    background: rgb(238, 238, 238);
+}
+
+.scrol::-webkit-scrollbar-thumb {
+    background: rgb(87, 87, 87);
+}
+
+.scrol {
+    height: 48vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 1px solid;
+    border-color: rgb(58, 58, 58);
+}
+
+.avis .scrol .row,
+.decision .scrol .row,
+.convocation .scrol .row,
+.jury .scrol .row,
+.pv .scrol .row {
+    height: 12%;
+}
+
+.pv .row .col:nth-child(1),
+.pv .scrol .row .col:nth-child(1) {
+    max-width: 12%;
+}
+
+.pv .row .col:nth-child(2),
+.pv .scrol .row .col:nth-child(2) {
+    max-width: 22%;
+}
+
+.pv .scrol .row a {
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    border-radius: 10%;
+    width: 45%;
+    padding: 0%;
+
+}
+
+.pv .scrol .row span {
+    max-width: 50%;
+
+}
+
+.pv .scrol a i {
+    max-width: 50%;
+    font-size: 70%;
+}
+
+/* download */
+.download {
+    margin-right: 1%;
+    margin-left: 1%;
+    border-radius: 10%;
+    width: 48%;
+    padding: 0;
+    background-color: rgb(0, 182, 15);
+    color: white;
+    border: 1px solid rgb(0, 182, 15);
+}
+
+.download a {
+    text-decoration: none;
+    color: white;
+}
+
+.download i {
+    max-width: 100%;
+    width: 100%;
+
+    padding: 0% 0% 0% 10%;
+    margin-right: 8%;
+    width: 30%;
+    color: white;
+    max-height: 100%;
+}
+
+/* update */
+.update {
+    margin-right: 1%;
+    margin-left: 1%;
+    border-radius: 10%;
+    width: 48%;
+    padding: 0;
+    background-color: white;
+    color: rgb(0, 0, 255);
+    border: 1px solid rgb(0, 0, 255);
+}
+
+.update a {
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+}
+
+.update i {
+    height: 100%;
+    width: 50%;
+    padding: 0% 0% 0% 10%;
+    margin-right: 2%;
+    width: 30%;
+    color: rgb(0, 0, 255);
+    max-height: 100%;
+}
+
+
+/* ajouter */
+.add {
+
+    margin-right: 1%;
+    margin-left: 1%;
+    border-radius: 10%;
+    width: 48%;
+    padding: 0;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+}
+
+.add a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.add i {
+    height: 100%;
+    width: 100%;
+    padding: 0% 0% 0% 10%;
+    margin-right: 8%;
+    width: 30%;
+    color: white;
+    max-height: 100%;
+}
+
+/* close */
+.close {
+
+    margin-right: 1%;
+    margin-left: 1%;
+    border-radius: 10%;
+    width: 48%;
+    padding: 0;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+
+.close a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.close i {
+    height: 100%;
+    width: 100%;
+    padding: 0% 0% 0% 10%;
+    margin-right: 8%;
+    width: 30%;
+    color: rgb(0, 0, 0);
+    max-height: 100%;
+}
+
+/* */
+.scrol .row {
+    height: 26%;
+    font-size: 90%;
+}
+
+
+
+#tabl {
+    background-color: whitesmoke;
+    margin-left: 5%;
+    width: 90%;
+
+}
+
+#tabl .row .col {
+    border: 1px solid;
+    border-color: rgb(105, 105, 105);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#colo {
+    display: flex;
+    align-items: center;
+    margin: 0vh 0vh 1vh 0vh;
+
+}
+
+
+
+#tabl .head {
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    background: rgb(233, 233, 233);
+    margin: 0vh 0.5em 3vh 0vh;
+    height: 50%;
+}
+
+#colo {
+    color: black;
+    background: rgb(255, 255, 255);
+}
+
+.btn-outline-danger,
+.btn-outline-succes {
+    height: 4VH;
+    margin: 1VH 4VH 1vh 0vh;
+}
+
+.cardo {
+    background: white;
+    border: 1px solid;
+    margin-left: 1.5%;
+    width: 95%;
+    height: 90%;
+
+}
+
+/*    avis    */
+.avis #colo .col:nth-child(1) {
+    max-width: 15%;
+}
+
+.avis #colo .col:nth-child(2),
+.avis #colo .col:nth-child(3) {
+    max-width: 25%;
+}
+
+/* -----------*/
+#inp-nom,
+#inp-prenom {
+    width: 250px;
+}
+
+.rows {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.row {
+    margin-bottom: 40px;
+    margin-top: 4%
+}
+
+.form-check {
+    margin-top: 5px;
+}
+
+.QualiteLabel {
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+
+#ajouter {
+    margin-left: 600px;
+    width: 130px;
+}
+
+#info-input {
+    width: 85%;
+    padding-top: 0%;
+}
+
+.formul {
+    margin: 0.2% 2.5% 1% 2.5%;
+    border: 1px;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group select {
+    width: 50%;
+    height: 30px;
+}
+
+.form-group label {
+    width: 45PX;
+    height: 17px;
+    text-align: center;
+    position: absolute;
+    top: -13px;
+    left: 11px;
+    font-size: 14px;
+    padding: 0 5px;
+    pointer-events: none;
+    transition: top .2s;
+    background-color: white;
+    color: rgb(99, 99, 99);
+}
+
+.impr {
+    width: 50%;
+    border-radius: 15PX;
+    margin-top: 10%;
+    margin-left: 45%;
+}
+
+.formul {
+    margin-top: 2%;
+}
+
+.cadrone {
+    border: 2px solid rgb(131, 131, 131);
+    width: 100%;
+
+}
+
+.cadrone input {
+    width: 90%;
+    height: 10%;
+    margin-left: 5%;
+}
+
+.cadrone label {
+    margin-left: 2.5%;
+}
+
+.tablo .col {
+    border: 1px solid rgb(131, 131, 131);
+
+}
+
+
+.tablo .row {
+
+    margin-left: 3%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.tablo .col:last-child,
+.tablotwo .col:last-child {
+    margin-right: 8%;
+    text-align: center;
+
+}
+
+.tablo .col:first-child {
+    max-width: 20%;
+}
+
+.tablo .col:first-child input {
+    width: 25%;
+    height: 80%;
+    margin: 4% 3% 1% 1%;
+
+}
+
+.formul .row:last-child {
+    margin-top: 0%;
+    margin-bottom: 1%;
+}
+
+
+
+
+.content {
+    height: 100vh;
+    overflow: auto;
+    overflow-y: hidden;
+
+    overflow-x: hidden;
+}
+
+.texto {
+
+    height: 100%;
+    width: 95%;
+    border-width: 0 0 1PX 1PX;
+    border-left-style: 60%;
+}
+
+.texto:valid {
+    border-width: 0 0 1PX 1PX;
+    background: transparent;
+    box-shadow: none;
+}
+
+.tablo::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+.tablo::-webkit-scrollbar-track {
+    background: rgb(238, 238, 238);
+}
+
+.tablo::-webkit-scrollbar-thumb {
+    background: rgb(87, 87, 87);
+}
+
+.tablotwo .row {
+    margin-left: 3%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+
+}
+
+.tablo {
+    height: 30vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
